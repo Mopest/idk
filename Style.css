@@ -1,0 +1,157 @@
+body {
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+;
+}
+
+#midcontent {
+    width:              1000px;
+    background-color:   white;
+    margin-right:       auto;
+    margin-left:        auto;
+    height:             430px;
+    clear:              both;
+}
+
+.buttonblack {
+	padding: 1px 1px 1px 1px;
+	background-color: black;
+  width: 100px;
+  height: 	40px;
+  color: white;
+  float: left;
+  margin-right: 10px;
+  border-radius:10px 10px 10px 10px;
+  text-align: center;
+  border: 1px solid black;
+  line-height: 40px;
+}
+.buttonwhite{
+	padding: 1px 1px 1px 1px;
+	background-color: white;
+  width: 100px;
+  height: 	40px;
+  color: black;
+  float: left;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius:10px 10px 10px 10px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.boxblack {
+  background-color: black;
+
+
+  box-shadow: 2px 8px 8px 2px rgba(0,0,0,0.2);
+  width: 1400px;
+  height: 60px;
+  padding: 1px 1px 1px 10px;
+  color: white;
+  text-align: center;
+  
+}
+
+.boxwhite {
+	padding: 8px 40px 0px 10px;
+  width: 300px;
+  height: 150px;
+  color: black;
+  float: left}
+  
+  .img150
+  {
+ 
+  ;
+ 
+  
+  } 
+  .flip-card {
+    background-color: white;
+    position: relative;
+	margin: 200px;
+	 float: left;
+
+  
+    width: 400px;
+    height: 400px;
+    perspective: 1000px;
+	margin: 10px;
+	display:inline-block;
+    
+  } 
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+ 
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
+ 
+   
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .flip-card-front {
+    background-color: white;
+    color: grey;
+  
+ 
+    body {
+   
+  }
+  }
+
+  .flip-card-back {
+    background-color: white;
+    transform: rotateY(180deg);
+     
+  }
+  }
+  
+  .imgzent{
+	  text-align: center;
+	  margin: 10t;
+	  padding: 0; }
+	  
+.header{text-align: center;
+		  word-spacing: 100pt;
+		  font-size: 40pt;
+		  margin: 80pt;
+		  
+		  }
+		  
+		
+	 
+	 	 a.normal{ 
+	 	 	     text-decoration: none;
+	 	 		 color: black
+		 
+	 	 	  }
+	
+	 	 	  a.normal:hover {
+	 	 	    background-color: gray;
+	 	 		color: white;
+	 	 	 }
+		 
+	 		 a{text-decoration: none;
+	 	 		 color: white}
+
+	 			 a {text-decoration: none;
+	 	 		 color: white; }
+			 
+	 

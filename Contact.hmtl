@@ -1,0 +1,120 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+}
+
+.boxblack {
+  background-color: black;
+
+
+  box-shadow: 2px 8px 8px 2px rgba(0,0,0,0.2);
+  width: 1400px;
+  height: 60px;
+  padding: 1px 1px 1px 10px;
+  color: white;
+  text-align: center;
+  
+}
+
+.boxwhite {
+	padding: 80px 40px 0px 10px;
+  width: 300px;
+  height: 150px;
+  color: black;
+  text-align: center;}
+  
+  .img150
+  {
+ 
+  ;
+ 
+  
+  } 
+  .flip-card {
+    background-color: white;
+    position: relative;
+
+  
+    width: 33%;
+    height: 50%;
+    perspective: 1000px;
+	margin: 10px;
+	display:inline-block;
+    
+  } 
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+ 
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
+ 
+   
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .flip-card-front {
+    background-color: white;
+    color: grey;
+  
+ 
+    body {
+   
+  }
+  }
+
+  .flip-card-back {
+    background-color: white;
+    transform: rotateY(180deg);
+     
+  }
+  }
+  
+  .imgzent{
+	  text-align: center;
+	  margin: 10t;
+	  padding: 0; }
+	  
+.header{text-align: center;
+		  word-spacing: 100pt;
+		  font-size: 40pt;
+		  margin: 80pt;
+		  
+	  }
+
+</style>
+</head>
+<HEADER>
+
+    <div class="boxblack">
+   
+   <h4>why u so mean?</h4>
+   </div>
+   
+   
+  
+<div class=header>
+	Products Music Contact
+	</div>
+<div class=imgzent>
+
+das wird die contact seite
